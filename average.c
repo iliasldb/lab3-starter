@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
     // Loop through each command-line argument to calculate the sum
     // First arg starts at argv[1]
-    for (int i = 1; i < argc; i++) {
+    for (int i = 1; i < argc+1; i++) {
         sum += atoi(argv[i]);
     }
 
